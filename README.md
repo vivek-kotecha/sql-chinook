@@ -21,6 +21,8 @@ Using SQL (for analysis) and Python (for plotting) the following questions will 
 5. There is a notable mismatch between the amount of stock held for some genres and their sales popularity. For example: Rock tracks make up over 55% of sales and yet represent only 37% of stock. It may be that increasing the variety of rock tracks will generate more sales given the genre's popularity with customers. Whilst Latin tracks comprise 16% of stock but only 3% of sales. It seems unprofitable to add any more Latin genre tracks to the store unless customer tastes are expected to shift favourably towards them in future.
 6. Over 45% of tracks in the store have never been purchased. This suggests that management could save money by not stocking certain tracks, and should focus on artists/albums that are more popular with existing customers. When broken down by genre it becomes clear that tracks from certain genres should not be stocked at all.
 
+The full analysis can be found in the [sql_chinook notebook.](https://nbviewer.jupyter.org/github/vivek-kotecha/sql-chinook/blob/main/sql_chinook.ipynb)
+
 ## Selected output
 
 1. Which albums should we purchase for the US store, based off the current best selling genres?
